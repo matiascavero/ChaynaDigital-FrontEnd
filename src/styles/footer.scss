@@ -1,0 +1,15 @@
+footer{
+    background-color: aliceblue;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    left: 0;
+    .div-footer-svg{
+        svg{
+            width: 30px;
+            height: auto;
+            margin-left: 4px;
+        }
+    }
+}

@@ -1,15 +1,13 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 
 function NavB() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top ">
         <div className="container-fluid">
-          <a className="navbar-brand" >
-            Chayna Digital
-          </a>
+          <a className="navbar-brand">Chayna Digital</a>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,19 +20,19 @@ function NavB() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" >
-                Inicio
-              </a>
-              <a className="nav-link">
-                Servicios
-              </a>
-              <a className="nav-link" >
-                Nosotros
-              </a>
-              <a className="nav-link " >
-                mas
-              </a>
+            <div className="navbar-nav ms-auto">
+            <Link className="nav-link active" aria-current='page' to='/'>
+              <b>Inicio</b>
+            </Link>
+            <Link className="nav-link" to='/Servicios'>
+              <b>Servicios</b>
+            </Link>
+            <Link className="nav-link" to='/SobreChayna'>
+              <b>Sobre Chayna</b>
+            </Link>
+            <Link className="nav-link" to='/Contacto'>
+              <b>Contacto</b>
+            </Link>
             </div>
           </div>
         </div>

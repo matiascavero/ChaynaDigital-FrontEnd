@@ -1,23 +1,24 @@
 import React from "react";
 import "../../main.scss";
-import NavB from "./containers/NavB";
+
 import FooterX from "./containers/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Inicio from "./sections/Inicio";
 import Contacto from './sections/Contacto';
 import Servicios from "./sections/Servicios";
-import SobreChayna from "./sections/SobreChayna";
+import SobreMi from "./sections/SobreMi";
 import Error from "./sections/Error";
+import Header from "./containers/Header";
 const App = () => {
   return (
     <div className="div-App">
       <BrowserRouter>
-      <NavB/>
+      <Header/>
         <Routes>
          <Route path="/" element={<Inicio/>}/>
          <Route path="/Contacto" element={<Contacto/>}/>
          <Route path="/Servicios" element={<Servicios/>}/>
-         <Route path="/SobreChayna" element={<SobreChayna/>}/>
+         <Route path="/SobreChayna" element={<SobreMi/>}/>
          <Route path="/*" element={<Error/>}/>
         </Routes>
         <FooterX/>

@@ -1,44 +1,49 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router-dom";
+
+import Container from 'react-bootstrap/Container';
+
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 function NavB() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top ">
-        <div className="container-fluid">
-          <a className="navbar-brand">Chayna Digital</a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav ms-auto">
-            <Link className="nav-link active" aria-current='page' to='/'>
-              <b>Inicio</b>
-            </Link>
-            <Link className="nav-link" to='/Servicios'>
-              <b>Servicios</b>
-            </Link>
-            <Link className="nav-link" to='/SobreChayna'>
-              <b>Sobre Chayna</b>
-            </Link>
-            <Link className="nav-link" to='/Contacto'>
-              <b>Contacto</b>
-            </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+    
+ 
+    <Navbar expand="lg" className="bg-transparent" style={{ marginLeft: '65%' }}>
+        <Container fluid>
+          <Navbar.Brand href="#" style={{ display: 'none' }}>Navbar</Navbar.Brand> {/* Esto oculta la palabra "Navbar" */}
+          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Collapse id="navbarScroll">
+            <Nav
+              className="me-auto my-2 my-lg-0"
+              style={{ maxHeight: '100px', fontSize: '16px', }} // Establecer el tamaño de fuente a 16px
+              navbarScroll
+            >
+              <Nav.Link href="#about" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' }}><b>Sobre Mí</b></Nav.Link>
+              <Nav.Link href="#services" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' }}><b>Servicios</b></Nav.Link>
+              <Nav.Link href="#contact" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' }}><b>Contacto</b></Nav.Link>
+              <Nav.Link href="#more" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' }}><b>E-Book</b></Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
+
+
+
+
     </>
   );
 }
 
 export default NavB;
+
+
+/*<section id="about">ABOUT</section>
+<section id="projects">PROJECTS</section>
+<section id="blog">BLOG</section>
+<section id="contact">CONTACT ME</section>
+*/

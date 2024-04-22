@@ -7,6 +7,28 @@ const Header = ()=>{
     return(
         <header>
               <NavB/>
+              <div className="header-container">
+                <img src="../../../icon.png" alt="icono chayna" className="img-header-icon"/>
+                <div className="div-header-cart">
+                   <img src="../../../img-sol-header.jpeg" alt="foto de sol" className="img-header-cart"/>
+                    <div>
+                        <div className="div-header-cart-text">
+                       <h2><b>Hago Emails que impactan</b></h2>
+                       <p>Amante de los viajes y apasionada por el Marketing Digital hace mas de 5 años. En este tiempo descubrí y me enamoré del poder del Email Marketing,
+                         el cual tiene una fuerza para crear conexiones significativas con nuestros clientes
+                         </p>
+                        
+                        <p>Mi objetivo es ayudarte tus metas de Marketing y hacer crecer tu negocio</p>
+                       
+                        <p>¿Listo para hacer crecer tu negocio con el poder del email marketing?
+                       </p>
+                       <div className="div-button-header">
+                        <button className="button-header"><b>QUIERO SABER MÁS</b></button>
+                       </div>
+                   </div>
+                   </div>
+                </div>
+              </div>
         </header>
         
        

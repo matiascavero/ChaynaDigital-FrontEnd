@@ -12,7 +12,7 @@ function NavB() {
     <>
     
  
-    <Navbar expand="lg" className="bg-transparent" style={{ marginLeft: '65%' }}>
+    <Navbar expand="lg" className="bg-transparent" style={{ marginLeft: '55%' }}>
         <Container fluid>
           <Navbar.Brand href="#" style={{ display: 'none' }}>Navbar</Navbar.Brand> {/* Esto oculta la palabra "Navbar" */}
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -20,12 +20,12 @@ function NavB() {
             <Nav
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: '100px', fontSize: '16px', }} // Establecer el tamaño de fuente a 16px
-              navbarScroll
+              
             >
-              <Nav.Link href="#about" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' }}><b>Sobre Mí</b></Nav.Link>
-              <Nav.Link href="#services" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' }}><b>Servicios</b></Nav.Link>
-              <Nav.Link href="#contact" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' }}><b>Contacto</b></Nav.Link>
-              <Nav.Link href="#more" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' }}><b>E-Book</b></Nav.Link>
+              <Nav.Link href="#about" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' ,fontSize: "1.2em",width: "130px", textAlign: 'center' }}><b>Sobre Mí</b></Nav.Link>
+              <Nav.Link href="#services" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px',fontSize: "1.2em", width: "130px", textAlign: 'center' }}><b>Servicios</b></Nav.Link>
+              <Nav.Link href="#contact" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' ,fontSize: "1.2em", width: "130px", textAlign: 'center' }}><b>Contacto</b></Nav.Link>
+              <Nav.Link href="#more" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px',fontSize: "1.2em", width: "130px" , textAlign: 'center' }}><b>E-Book</b></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -22,10 +22,10 @@ function NavB() {
               style={{ maxHeight: '100px', fontSize: '16px', }} // Establecer el tamaño de fuente a 16px
               
             >
-              <Nav.Link href="#about" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' ,fontSize: "1.2em",width: "130px", textAlign: 'center' }}><b>Sobre Mí</b></Nav.Link>
-              <Nav.Link href="#services" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px',fontSize: "1.2em", width: "130px", textAlign: 'center' }}><b>Servicios</b></Nav.Link>
-              <Nav.Link href="#contact" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' ,fontSize: "1.2em", width: "130px", textAlign: 'center' }}><b>Contacto</b></Nav.Link>
-              <Nav.Link href="#more" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px',fontSize: "1.2em", width: "130px" , textAlign: 'center' }}><b>E-Book</b></Nav.Link>
+              <Nav.Link href="#sobreMi" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' ,fontSize: "1.1em",width: "130px", textAlign: 'center' }}><b>Sobre Mí</b></Nav.Link>
+              <Nav.Link href="#services" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px',fontSize: "1.1em", width: "130px", textAlign: 'center' }}><b>Servicios</b></Nav.Link>
+              <Nav.Link href="#contact" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' ,fontSize: "1.1em", width: "130px", textAlign: 'center' }}><b>Contacto</b></Nav.Link>
+              <Nav.Link href="#more" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px',fontSize: "1.1em", width: "130px" , textAlign: 'center' }}><b>E-Book</b></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -18,7 +18,7 @@ const App = () => {
          <Route path="/" element={<Inicio/>}/>
          <Route path="/Contacto" element={<Contacto/>}/>
          <Route path="/Servicios" element={<Servicios/>}/>
-         <Route path="/SobreChayna" element={<SobreMi/>}/>
+         <Route path="/sobreMi" element={<SobreMi/>}/>
          <Route path="/*" element={<Error/>}/>
         </Routes>
         <FooterX/>

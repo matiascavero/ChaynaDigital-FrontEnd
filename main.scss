@@ -7,7 +7,7 @@
 @use 'src/styles/header.scss';
 @use 'src/styles/servicios.scss';
 @use 'src/styles/sobreChayna.scss';
-
+@use 'src/styles/mediaqueris.scss';
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,7 +20,7 @@
 }
 
 body {
-  margin: 0;
+ 
   background-color: black !important;
  
 }

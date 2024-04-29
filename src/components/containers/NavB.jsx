@@ -12,10 +12,10 @@ function NavB() {
     <>
     
  
-    <Navbar expand="lg" className="bg-transparent" style={{ marginLeft: '55%' }}>
+    <Navbar expand="lg" className="bg-transparent" style={{ marginLeft: '50%' }}>
         <Container fluid>
-          <Navbar.Brand href="#" style={{ display: 'none' }}>Navbar</Navbar.Brand> {/* Esto oculta la palabra "Navbar" */}
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Brand href="#" style={{ display: 'none',}}>Navbar</Navbar.Brand> {/* Esto oculta la palabra "Navbar" */}
+          <Navbar.Toggle aria-controls="navbarScroll" className="ms-auto"/>
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"

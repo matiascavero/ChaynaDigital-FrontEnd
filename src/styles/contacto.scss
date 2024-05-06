@@ -1,0 +1,297 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.hero-section {
+  background-color: #9dbdbc;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 60px;
+}
+@media (max-width: 991px) {
+  .hero-section {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.hero-content {
+  width: 100%;
+  max-width: 1088px;
+}
+@media (max-width: 991px) {
+  .hero-content {
+    max-width: 100%;
+  }
+}
+.hero-grid {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
+  .hero-grid {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+.hero-image-container {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 45%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .hero-image-container {
+    width: 100%;
+  }
+}
+.hero-image {
+  aspect-ratio: 1.45;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  flex-grow: 1;
+}
+@media (max-width: 991px) {
+  .hero-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 55%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .hero-text-container {
+    width: 100%;
+  }
+}
+.hero-text-content {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: center;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .hero-text-content {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.hero-title {
+  align-self: stretch;
+  font: 500 32px/43px Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .hero-title {
+    max-width: 100%;
+  }
+}
+.hero-description {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  line-height: 22px;
+  margin-top: 48px;
+}
+@media (max-width: 991px) {
+  .hero-description {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.hero-cta {
+  font-family: Poppins, sans-serif;
+  border-radius: 16px;
+  background-color: #cfb7c1;
+  margin-top: 67px;
+  font-weight: 700;
+  white-space: nowrap;
+  line-height: 150%;
+  justify-content: center;
+  padding: 14px 37px;
+}
+@media (max-width: 991px) {
+  .hero-cta {
+    margin-top: 40px;
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+.ebook-section {
+  background-color: #fefaef;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 60px 34px;
+}
+@media (max-width: 991px) {
+  .ebook-section {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.ebook-content {
+  width: 100%;
+  max-width: 1064px;
+}
+@media (max-width: 991px) {
+  .ebook-content {
+    max-width: 100%;
+  }
+}
+.ebook-grid {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
+  .ebook-grid {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+.ebook-image-container {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .ebook-image-container {
+    width: 100%;
+  }
+}
+.ebook-image {
+  aspect-ratio: 1.45;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .ebook-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.ebook-text-container {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .ebook-text-container {
+    width: 100%;
+  }
+}
+.ebook-text-content {
+  display: flex;
+  margin-top: 8px;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  color: #000;
+  font-weight: 300;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .ebook-text-content {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.ebook-title {
+  align-self: stretch;
+  font: 500 32px/43px Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .ebook-title {
+    max-width: 100%;
+  }
+}
+.ebook-description {
+  font-family: Poppins, sans-serif;
+  line-height: 22px;
+  align-self: stretch;
+  margin-top: 39px;
+}
+@media (max-width: 991px) {
+  .ebook-description {
+    max-width: 100%;
+  }
+}
+.ebook-description-highlight {
+  font-weight: 500;
+}
+.ebook-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  width: 100%;
+}
+.form-group {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  white-space: nowrap;
+  text-align: justify;
+  line-height: 135%;
+  width: 100%;
+  margin-bottom: 18px;
+}
+@media (max-width: 991px) {
+  .form-group {
+    white-space: initial;
+  }
+}
+.form-label {
+  font-family: Poppins, sans-serif;
+  flex-grow: 1;
+  margin: auto 0;
+}
+.form-input {
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background-color: #d9d9d9;
+  width: 379px;
+  max-width: 100%;
+  height: 30px;
+}
+.form-submit {
+  font-family: Poppins, sans-serif;
+  border-radius: 16px;
+  background-color: #9dbdbc;
+  margin-top: 34px;
+  width: 198px;
+  max-width: 100%;
+  align-items: center;
+  font-weight: 700;
+  white-space: nowrap;
+  line-height: 150%;
+  justify-content: center;
+  padding: 14px 60px;
+}
+@media (max-width: 991px) {
+  .form-submit {
+    white-space: initial;
+    padding: 0 20px;
+  }
+}

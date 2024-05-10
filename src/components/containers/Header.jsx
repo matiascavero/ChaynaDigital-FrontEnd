@@ -10,7 +10,9 @@ const Header = ()=>{
               <div className="header-container" id="sobreMi">
                 <img src="../../../assets/icon.png" alt="icono chayna" className="img-header-icon"/>
                 <div className="div-header-cart">
-                   <img src="../../../assets/img-sol-header.jpeg" alt="foto de sol" className="img-header-cart"/>
+                   <div className="div-img-sol">
+                   <img src="../../../assets/img-card-new.png" alt="foto de sol" className="img-header-cart"/>
+                   </div>
                     <div className="div-container-second">
                         <div className="div-header-cart-text">
                        <h2><b>Hago Emails que impactan</b></h2>

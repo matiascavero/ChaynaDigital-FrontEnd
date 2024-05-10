@@ -8,7 +8,7 @@ function Servicios () {
   ];
   return (
     <>
-      <div className="services-container">
+      <div className="services-container" id="services">
         <ServicesSection />
         <InstagramSection images={instagramImages} />
       </div>

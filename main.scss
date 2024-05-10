@@ -8,6 +8,7 @@
 @use 'src/styles/servicios.scss';
 @use 'src/styles/sobreChayna.scss';
 @use 'src/styles/mediaqueris.scss';
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,7 +21,7 @@
 }
 
 body {
- 
+  overflow-x: hidden !important; 
   background-color: black !important;
  
 }

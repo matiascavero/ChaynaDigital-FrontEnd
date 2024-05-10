@@ -9,17 +9,17 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavB() {
   return (
-    <>
+    <div className="navvbar">
     
  
-    <Navbar expand="lg" className="bg-transparent" style={{ marginLeft: '50%' }}>
+    <Navbar expand="lg" className="bg-transparent " style={{ marginLeft: '50%' }}>
         <Container fluid>
           <Navbar.Brand href="#" style={{ display: 'none',}}>Navbar</Navbar.Brand> {/* Esto oculta la palabra "Navbar" */}
           <Navbar.Toggle aria-controls="navbarScroll" className="ms-auto"/>
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px', fontSize: '16px', }} // Establecer el tamaño de fuente a 16px
+              style={{ maxHeight: '100px', fontSize: '18px', }} // Establecer el tamaño de fuente a 16px
               
             >
               <Nav.Link href="#sobreMi" style={{ cursor: 'pointer', backgroundColor: '#CFB7C1', borderRadius: '5px', marginRight: '10px', padding: '5px' ,fontSize: "1.1em",width: "130px", textAlign: 'center' }}><b>Sobre Mí</b></Nav.Link>
@@ -35,7 +35,7 @@ function NavB() {
 
 
 
-    </>
+    </div>
   );
 }
 

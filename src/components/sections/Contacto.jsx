@@ -2,7 +2,7 @@ import * as React from "react";
 
 function Contacto () {
   return (
-    <>
+    <div id="contact">
       {" "}
       <main className="main-container">
         {" "}
@@ -102,7 +102,7 @@ function Contacto () {
       <style jsx>{`
         
       `}</style>{" "}
-    </>
+    </div>
   );
 }
 
